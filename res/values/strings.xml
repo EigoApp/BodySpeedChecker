@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BodySpeedChecker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="taikansokudo">体感速度：</string>
+    <string name="unit_temp">℃</string>
+    <string name="temperature">気温：</string>
+    <string name="shitsudo">湿度：</string>
+    <string name="unit_pacent">％</string>
+    <string name="jisoku">時速：</string>
+    <string name="unit_jisoku">km/時</string>
+    
+    <string name="init_int">0</string>
+    <string name="init_float">0.0</string>
+    
+    <string name="btn_init">計測開始</string>
+    <string name="btn_clear">クリア</string>
+</resources>

@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bodyspeedchecker.view.activity.MainActivity$PlaceholderFragment" >
+
+    <!-- 体感速度 -->
+
+    <TextView
+        android:id="@+id/taikansokudo_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/taikansokudo" />
+
+    <TextView
+        android:id="@+id/taikansokudo_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/taikansokudo_title" />
+
+    <TextView
+        android:id="@+id/taikansokudo_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/taikansokudo_value"
+        android:text="@string/unit_temp" />
+    <!-- 気温 -->
+
+    <TextView
+        android:id="@+id/temperature_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/taikansokudo_title"
+        android:text="@string/temperature" />
+
+    <TextView
+        android:id="@+id/temperature_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/temperature_title"
+        android:layout_toRightOf="@+id/temperature_title" />
+
+    <TextView
+        android:id="@+id/temperature_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/temperature_value"
+        android:layout_toRightOf="@+id/temperature_value"
+        android:text="@string/unit_temp" />
+    <!-- 湿度 -->
+
+    <TextView
+        android:id="@+id/shitsudo_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temperature_title"
+        android:text="@string/shitsudo" />
+
+    <TextView
+        android:id="@+id/shitsudo_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shitsudo_title"
+        android:layout_toRightOf="@+id/shitsudo_title" />
+
+    <TextView
+        android:id="@+id/shitsudo_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shitsudo_value"
+        android:layout_toRightOf="@+id/shitsudo_value"
+        android:text="@string/unit_pacent" />
+    <!-- 時速 -->
+
+    <TextView
+        android:id="@+id/jisoku_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shitsudo_title"
+        android:text="@string/jisoku" />
+
+    <TextView
+        android:id="@+id/jisoku_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/jisoku_title"
+        android:layout_toRightOf="@+id/jisoku_title" />
+
+    <TextView
+        android:id="@+id/jisoku_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/jisoku_value"
+        android:layout_toRightOf="@+id/jisoku_value"
+        android:text="@string/unit_jisoku" />
+
+    <Button
+        android:id="@+id/btn_init"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/btn_init" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/btn_clear" />
+
+</RelativeLayout>
